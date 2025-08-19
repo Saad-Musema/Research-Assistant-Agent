@@ -1,0 +1,36 @@
+# Core dependencies - using compatible versions
+langchain>=0.1.0,<0.2.0
+langchain-community>=0.0.20,<0.2.0
+langchain-groq>=0.1.0
+# langchain-google-genai>=1.0.0  # Optional, only for embeddings
+
+# Vector database
+faiss-cpu>=1.7.4
+# Use faiss-gpu if you have GPU support: faiss-gpu>=1.7.4
+
+# Embeddings
+sentence-transformers>=2.2.0
+
+# Document processing
+PyMuPDF>=1.23.0  # PDF processing
+python-docx>=0.8.11  # Word documents
+unstructured[epub]>=0.10.0  # EPUB files
+
+# Environment and configuration
+python-dotenv>=1.0.0
+
+# Scientific computing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Web search and arxiv
+arxiv>=1.4.0
+
+# Optional: For better text processing
+nltk>=3.8
+spacy>=3.7.0
+
+# Development dependencies (optional)
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
