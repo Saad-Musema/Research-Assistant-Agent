@@ -46,7 +46,7 @@ Research-Assistant-Agent/
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/Saad-Musema/Research-Assistant-Agent/
 cd Research-Assistant-Agent
 
 # Create virtual environment
